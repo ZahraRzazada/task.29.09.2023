@@ -35,7 +35,7 @@ function autoPlay(){
 
 let dots = document.querySelector("#dots")
 let dotsinner = ''
-imageList.forEach((index) =>{
+imageList.forEach(() =>{
     index=slideindex
     slideindex++
     dotsinner+= `<div class="dot" id='${index}'> </div> `
